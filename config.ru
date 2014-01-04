@@ -1,4 +1,5 @@
-require 'sprockets'
+require "rack"
+require "sprockets"
 require "brochure"
 
 root = File.dirname(__FILE__)
