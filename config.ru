@@ -2,6 +2,9 @@ require "rack"
 require "sprockets"
 require "brochure"
 
+require "bundler"
+Bundler.require
+
 root = File.dirname(__FILE__)
 
 assets = Sprockets::Environment.new(root) do |env|
